@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct CoreDataRelationSwiftUIDemoApp: App {
+    
+    let persistenceController = PersistenceContrller.shared
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }

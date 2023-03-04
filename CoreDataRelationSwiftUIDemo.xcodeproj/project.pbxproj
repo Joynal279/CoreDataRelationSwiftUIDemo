@@ -14,6 +14,9 @@
 		F2548FC429B3769300CAFE6B /* CoreDataRelationSwiftUIDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2548FC329B3769300CAFE6B /* CoreDataRelationSwiftUIDemoTests.swift */; };
 		F2548FCE29B3769300CAFE6B /* CoreDataRelationSwiftUIDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2548FCD29B3769300CAFE6B /* CoreDataRelationSwiftUIDemoUITests.swift */; };
 		F2548FD029B3769300CAFE6B /* CoreDataRelationSwiftUIDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2548FCF29B3769300CAFE6B /* CoreDataRelationSwiftUIDemoUITestsLaunchTests.swift */; };
+		F2548FDE29B3783200CAFE6B /* Products.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2548FDC29B3783200CAFE6B /* Products.xcdatamodeld */; };
+		F2548FE029B3968400CAFE6B /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2548FDF29B3968400CAFE6B /* PersistenceController.swift */; };
+		F2548FE229B3B85400CAFE6B /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2548FE129B3B85400CAFE6B /* ResultsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		F2548FC929B3769300CAFE6B /* CoreDataRelationSwiftUIDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataRelationSwiftUIDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2548FCD29B3769300CAFE6B /* CoreDataRelationSwiftUIDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationSwiftUIDemoUITests.swift; sourceTree = "<group>"; };
 		F2548FCF29B3769300CAFE6B /* CoreDataRelationSwiftUIDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationSwiftUIDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F2548FDD29B3783200CAFE6B /* Products.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Products.xcdatamodel; sourceTree = "<group>"; };
+		F2548FDF29B3968400CAFE6B /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		F2548FE129B3B85400CAFE6B /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +100,13 @@
 		F2548FB129B3769100CAFE6B /* CoreDataRelationSwiftUIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F2548FDC29B3783200CAFE6B /* Products.xcdatamodeld */,
 				F2548FB229B3769100CAFE6B /* CoreDataRelationSwiftUIDemoApp.swift */,
 				F2548FB429B3769100CAFE6B /* ContentView.swift */,
 				F2548FB629B3769300CAFE6B /* Assets.xcassets */,
 				F2548FB829B3769300CAFE6B /* Preview Content */,
+				F2548FDF29B3968400CAFE6B /* PersistenceController.swift */,
+				F2548FE129B3B85400CAFE6B /* ResultsView.swift */,
 			);
 			path = CoreDataRelationSwiftUIDemo;
 			sourceTree = "<group>";
@@ -259,6 +268,9 @@
 			files = (
 				F2548FB529B3769100CAFE6B /* ContentView.swift in Sources */,
 				F2548FB329B3769100CAFE6B /* CoreDataRelationSwiftUIDemoApp.swift in Sources */,
+				F2548FDE29B3783200CAFE6B /* Products.xcdatamodeld in Sources */,
+				F2548FE229B3B85400CAFE6B /* ResultsView.swift in Sources */,
+				F2548FE029B3968400CAFE6B /* PersistenceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,6 +595,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F2548FDC29B3783200CAFE6B /* Products.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F2548FDD29B3783200CAFE6B /* Products.xcdatamodel */,
+			);
+			currentVersion = F2548FDD29B3783200CAFE6B /* Products.xcdatamodel */;
+			path = Products.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F2548FA729B3769100CAFE6B /* Project object */;
 }
